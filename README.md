@@ -59,6 +59,15 @@
 <!-- markdown-link-check-disable -->
 Использовать библиотеку [RootBeer](https://github.com/scottyab/rootbeer) или [SafetyNet Attestation API](https://developer.android.com/training/safetynet/attestation)
 <!-- markdown-link-check-enable -->
+
+Для проверки рута из натива есть неплохая и удобно дописываемая либа:
+https://github.com/DimaKoz/meat-grinder
+
+У неё даже есть демо приложение в маркете:
+https://play.google.com/store/apps/details?id=com.kozhevin.rootchecks
+
+Но magiskhide она пробить всё равно не может, зато может выявить более примитивные велосипеды пытающиеся спрятать рут, или инструменты хукающие из андроид рантайма, например xposed
+
 ### **Не могу установить/заставить работать/скачать %название инструмента%, что делать?**
 
 Если не получается что-то сделать по официальной инструкции, то тут возможно два варианта:
