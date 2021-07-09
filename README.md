@@ -52,13 +52,13 @@
 Никак, это запрещено [ст. 273 УК РФ](https://www.consultant.ru/document/cons_doc_LAW_10699/a4d58c1af8677d94b4fc8987c71b131f10476a76/)
 
 ### **Как шифровать данные?**
-
+<!-- markdown-link-check-disable -->
 Если нужно шифровать просто что-нибудь, то лучше использовать библиотеку [Tink](https://github.com/google/tink). Но как правило нужно шифровать преференсы или файлы. В этом случае нужно использовать библиотеку [security-crypto](https://developer.android.com/jetpack/androidx/releases/security) из Android JetPack
-
+<!-- markdown-link-check-enable -->
 ### **Как сделать проверку на root?**
-
+<!-- markdown-link-check-disable -->
 Использовать библиотеку [RootBeer](https://github.com/scottyab/rootbeer) или [SafetyNet Attestation API](https://developer.android.com/training/safetynet/attestation)
-
+<!-- markdown-link-check-enable -->
 ### **Не могу установить/заставить работать/скачать %название инструмента%, что делать?**
 
 Если не получается что-то сделать по официальной инструкции, то тут возможно два варианта:
@@ -98,7 +98,7 @@ $ apksigner sign --ks fake.keystore --ks-key-alias fake --ks-pass pass:fake-fake
 Простые случаи обфускации вполне себе разматывает [Jadx](https://github.com/skylot/jadx), для более сложных можно применить [Simplify](https://github.com/CalebFenton/simplify) или [DeGuard](http://apk-deguard.com/). Но иногда вообще ничего не помогает и придется тратить часы/дни/годы на распутывание поведения приложения.
 
 ### **Как получить apk файл приложения?**
-
+<!-- markdown-link-check-disable-next-line -->
 Взять с сайта [APKPure](https://apkpure.com/)/[APKMirror](https://www.apkmirror.com/) или [стянуть](https://github.com/Android-Guards/apk-extractor) уже установленное с устройства. 
 
 ### **Где почитать про уязвимости в приложениях и техники их устранения**
