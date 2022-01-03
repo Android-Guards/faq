@@ -64,8 +64,7 @@
 Для проверки рута из натива есть неплохая и удобно дописываемая либа:
 https://github.com/DimaKoz/meat-grinder
 
-У неё даже есть демо приложение в маркете:
-https://play.google.com/store/apps/details?id=com.kozhevin.rootchecks
+У неё даже есть [демо приложение](https://github.com/DimaKoz/meat-grinder/blob/master/apk/NativeRootChecker_1_0_0.apk)
 
 Но magiskhide она пробить всё равно не может, зато может выявить более примитивные велосипеды пытающиеся спрятать рут, или инструменты хукающие из андроид рантайма, например xposed
 
